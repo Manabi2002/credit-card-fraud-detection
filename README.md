@@ -1,26 +1,51 @@
-# Credit Card Fraud Detection using Machine Learning
+# Credit Card Fraud Detection
 
-This project is a machine learning system that detects fraudulent credit card transactions.
+This project uses Machine Learning to detect fraudulent credit card transactions.
 
 ## Project Overview
+The system analyzes transaction data and predicts whether a transaction is fraudulent or normal using a Logistic Regression model.
 
-Online fraud is a major issue in digital payments. This project builds a machine learning model that analyzes transaction data and predicts whether a transaction is **normal or fraudulent**.
+## Features
+- Data preprocessing
+- Model training using Logistic Regression
+- Fraud prediction system
+- Example transaction testing
 
-## Technologies Used
-
+## Tech Stack
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
-- Logistic Regression
 
 ## Dataset
+Due to GitHub file size limits, the dataset is not included in this repository.
 
-Dataset used from Kaggle:
-
+Download it from:
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Note: The dataset is not uploaded to this repository because it is larger than GitHub's file size limit.
+Place the dataset inside the `dataset` folder before running the project.
 
+## Run the Project
+
+Train the model:
 ## Project Structure
 
+credit-card-fraud-detection/
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── data_analysis.py
+│   ├── train_model.py
+│   └── predict.py
+│
+├── models/
+│   └── fraud_model.pkl
+│
+├── dataset/
+│   └── creditcard.csv (download from Kaggle)
+│
+├── templates/
+│   └── index.html
+│
+├── README.md
+└── requirements.txt
